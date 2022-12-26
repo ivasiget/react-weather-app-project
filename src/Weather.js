@@ -45,7 +45,7 @@ export default function Weather() {
         <a
           href="https://github.com/ivasiget/react-weather-app-project"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           {" "}
           Open-sourced code
