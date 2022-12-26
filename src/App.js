@@ -9,6 +9,7 @@ function App() {
         <a
           href="https://github.com/ivasiget/react-weather-app-project"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           Open-sourced code
