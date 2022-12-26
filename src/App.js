@@ -6,11 +6,14 @@ function App() {
       <h1>Weather app</h1>
 
       <footer>
-        <a href="" target_blank>
+        <a
+          href="https://github.com/ivasiget/react-weather-app-project"
+          target="_blank"
+        >
           {" "}
           Open-sourced code
         </a>{" "}
-        on Github by Iva Siget.
+        on GitHub by Iva Siget.
       </footer>
     </div>
   );
