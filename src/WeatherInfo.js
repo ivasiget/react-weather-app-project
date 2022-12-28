@@ -11,7 +11,10 @@ export default function WeatherInfo(props) {
           {" "}
           <FormattedDate date={props.data.date} />
         </li>
-        <li className="description"> {props.data.description}</li>
+        <li className="description text-capitalize">
+          {" "}
+          {props.data.description}
+        </li>
       </ul>
       <div className="row">
         <div className="col-6">
