@@ -8,6 +8,17 @@ function App() {
     <div className="container">
       <div className="App">
         <Weather defaultCity="London" />
+        <footer>
+          <a
+            href="https://github.com/ivasiget/react-weather-app-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Open-sourced code
+          </a>{" "}
+          on GitHub by Iva Siget.
+        </footer>
       </div>
     </div>
   );

@@ -54,32 +54,19 @@ export default function Weather(props) {
           <div className="row">
             <div className="col-6">
               <div className="d-flex weather-temperature">
-                <img src={weatherData.icon} alt="Partial clouds" />
+                <img src={weatherData.icon} alt={weatherData.description} />
                 <span className="temperature">{weatherData.temp}</span>{" "}
                 <span className="unit">°C</span>
               </div>
             </div>
             <div className="col-6">
               <ul>
-                <li>Precipitation: 2%</li>
                 <li>Humidity: {weatherData.humidity}%</li>
                 <li>Wind: {weatherData.wind} km/h</li>
               </ul>
             </div>
           </div>
         </div>
-
-        <footer>
-          <a
-            href="https://github.com/ivasiget/react-weather-app-project"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            Open-sourced code
-          </a>{" "}
-          on GitHub by Iva Siget.
-        </footer>
       </div>
     );
   } else {
