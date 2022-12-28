@@ -17,7 +17,7 @@ function App() {
             {" "}
             Open-sourced code
           </a>{" "}
-          on GitHub by Iva Siget.
+          on GitHub by Iva Siget
         </footer>
       </div>
     </div>

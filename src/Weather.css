@@ -34,3 +34,7 @@ span {
 .weather .weather-temperature {
   margin: 0;
 }
+.weather .unit {
+  position: relative;
+  top: -34px;
+}
