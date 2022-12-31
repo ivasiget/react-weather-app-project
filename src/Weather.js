@@ -21,6 +21,7 @@ export default function Weather(props) {
       icon: response.data.condition.icon_url,
       date: new Date(response.data.time * 1000),
     });
+    console.log(response.data);
   }
 
   function search() {
