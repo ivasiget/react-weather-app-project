@@ -38,3 +38,6 @@ span {
   position: relative;
   top: -34px;
 }
+a {
+  text-decoration: none;
+}
